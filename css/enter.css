@@ -1,0 +1,18 @@
+header .top1{height: 0.43rem;line-height: 0.44rem;position: relative;color: #fff;}
+.top1 p{position: absolute;left: 0.18rem}
+.top1 p a{font-size: 0.2rem;display: block;color: #fff;}
+.top1 h2{font-size: 0.17rem;color: #fff;position: absolute;left: 1.5rem}
+form{height: 5.4rem;width: 100%;padding-top: 1rem;}
+#img1{width: 1rem;height: 0.75rem;margin-left: 1.3rem;margin-bottom: 0.08rem}
+#inp1{width: 2rem;height: 0.24rem;line-height: 0.24rem;border: none;border-bottom: 1px solid #ccc;display: block;margin-left: 0.8rem;
+background: url("../images/denglu_07.jpg") no-repeat left center;padding-left: 0.3rem;margin-bottom: 0.2rem}
+#inp2{width: 2rem;height: 0.24rem;line-height: 0.24rem;border: none;border-bottom: 1px solid #ccc;display: block;margin-left: 0.8rem;
+    background: url("../images/denglu_11.jpg") no-repeat left center;padding-left: 0.3rem;margin-bottom: 0.3rem;}
+#but{width: 2.4rem;height: 0.35rem;background:#9966ff;color: #fff;text-align: center;line-height: 0.35rem;display: block;margin-left: 0.8rem;border-radius: 30px; }
+form p{height: 0.38rem;line-height: 0.38rem;float: right;margin-right: 0.5rem;margin-bottom: 0.2rem}
+form p a{font-size: 0.12rem;color: #ff9933;display: block}
+h4{font-size: 0.12rem;text-align: center;color: #333;}
+form ul{display: flex;justify-content: space-around;width: 80%;padding: 10%;margin-bottom: 0.6rem;}
+form ul img{width: 0.35rem;height: 0.35rem;}
+form h5{line-height: 0.9rem;text-align: center}
+form h5 a{font-size: 0.13rem;display: block;color: #333;}

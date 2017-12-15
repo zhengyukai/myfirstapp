@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="initial-scale=1.0,width=device-width, maximum-scale=1.0, user-scalable=no"/>
+    <script src="js/setFont.js"></script>
+    <link href="css/enter.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <script type="text/javascript" src="js/demoUtils.js"></script>
+</head>
+<body onload="loaded()">
+<header id="hearder">
+    <div class="top">
+        <img src="images/chihe_08.jpg" class="dian">
+        <img src="images/chihe_03.jpg" class="wifi">
+        <img src="images/chihe_05.jpg" class="elec">
+        <ul>
+            <li>Carrier</li>
+            <li>8.08 AM</li>
+            <li>100%</li>
+        </ul>
+    </div>
+    <div class="top1">
+        <p><a href="javascript:;"><</a></p>
+        <h2>登录</h2>
+    </div>
+</header>
+<form id="wrapper">
+    <div id="scroller">
+            <img src="images/denglu_03.jpg" id="img1">
+            <input type="text" placeholder="手机号/账号" id="inp1">
+            <input type="password" placeholder="密码" id="inp2">
+            <button id="but">登录</button>
+            <p><a href="javascript:;">忘记密码</a></p>
+            <div id="clear"></div>
+            <h4>更多登录方式</h4>
+            <ul>
+                <li><a href="javascript:;"><img src="images/denglu_15.jpg"></a></li>
+                <li><a href="javascript:;"><img src="images/denglu_17.jpg"></a></li>
+                <li><a href="javascript:;"><img src="images/denglu_20.jpg"></a></li>
+            </ul>
+            <h5><a href="javascript:;">立即注册></a></h5>
+        </div>
+</form>
+<div id="footer"></div>
+<script src="js/iscroll.js"></script>
+<script src="js/swiper.min.js"></script>
+<script type="text/javascript">
+    var myScroll;
+    function loaded () {
+        myScroll = new IScroll('#wrapper', { mouseWheel: true, click: true });
+    }
+    document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+        capture: false,
+        passive: false
+    } : false);
+
+</script>
+</body>
+</html>

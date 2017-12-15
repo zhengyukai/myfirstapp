@@ -1,0 +1,19 @@
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{display: block;}
+#clear{clear:both;}
+header{width: 100%;height:0.64rem;background:url("../images/chihe_14.jpg")repeat-y; position: absolute;z-index: 2;left: 0;top: 0;}
+header .top{height: 0.2rem;line-height: 0.2rem;font-size: 0.09rem;color: white;}
+.top .dian{position: absolute;left: 0.14rem;top: 0.07rem;width: 0.34rem;height: 0.07rem;}
+.top .wifi{position: absolute;left: 1.1rem;top: 0.05rem;width: 0.13rem;height: 0.09rem;}
+.top .elec{position: absolute;right: 0.26rem;top: 0.05rem;width: 0.25rem;height: 0.12rem;}
+.top li{float: left;}
+.top li:first-child{margin-left: 0.6rem}
+.top li:nth-child(2){margin-left: 0.8rem}
+.top li:last-child{margin-left: 0.5rem}
+footer{display: flex;width: 100%;height: 0.45rem;justify-content: space-around;position: absolute;bottom: 0;left: 0;z-index: 2;}
+footer img{width: 0.2rem;height: 0.2rem}
+footer a{font-size: 0.11rem;color: #333;display: block}
+footer dd{height: 0.2rem}
+footer dt{height: 0.2rem;line-height: 0.2rem}

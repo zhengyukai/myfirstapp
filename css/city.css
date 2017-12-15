@@ -1,0 +1,9 @@
+header .top1{height: 0.43rem;line-height: 0.44rem;position: relative;color: #fff;}
+.top1 p{position: absolute;left: 0.18rem}
+.top1 p a{font-size: 0.2rem;display: block;color: #fff;}
+.top1 h2{font-size: 0.17rem;color: #fff;position: absolute;left: 1.5rem}
+h3{height: 0.43rem;line-height: 0.43rem;font-size: 0.14rem}
+h4{height: 0.24rem;;line-height: 0.24rem;font-size: 0.13rem;}
+.city li{height: 0.22rem;padding-top: 0.15rem;line-height: 0.22rem;border-bottom: 1px solid #ccc;}
+.city li a{font-size: 0.12rem;color: #333;display: block}
+main{width: 95%;padding-left: 5%;position: absolute;top: 0.62rem;left: 0;z-index: 1;height: 5rem;}

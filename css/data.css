@@ -1,0 +1,7 @@
+header .top1{height: 0.43rem;line-height: 0.44rem;position: relative;color: #fff;}
+.top1 p{position: absolute;left: 0.18rem}
+.top1 p a{font-size: 0.2rem;display: block;color: #fff;}
+.top1 h2{font-size: 0.17rem;color: #fff;position: absolute;left: 1.5rem}
+#data{width: 100%;font-size: 0.13rem;height: 5rem;}
+#data a{font-size: 0.13rem;color: #333;float: right;margin-right: 0.6rem}
+#data li{height: 0.5rem;line-height: 0.5rem;margin-left: 0.56rem}
